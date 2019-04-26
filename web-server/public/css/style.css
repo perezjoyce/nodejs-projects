@@ -1,0 +1,27 @@
+body {
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    /* enable flexbox */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    /* main content should 
+    take up all leftover space */
+    flex-grow: 1; 
+}
+
+h1 {
+    color: gray;
+}
+
+.portrait {
+    width: 250px;
+}
+
