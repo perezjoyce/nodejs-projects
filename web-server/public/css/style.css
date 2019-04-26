@@ -2,7 +2,7 @@ body {
     color: #333333;
     font-family: Arial, Helvetica, sans-serif;
     max-width: 650px;
-    margin: 0 auto;
+    margin: auto;
     padding: 0 16px;
 
     /* enable flexbox */
@@ -18,10 +18,20 @@ body {
 }
 
 h1 {
+    font-size: -webkit-xxx-large;
+}
+
+a:-webkit-any-link {
     color: gray;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .portrait {
     width: 250px;
+}
+
+.mr-1em {
+    margin-right: 1em;
 }
 
